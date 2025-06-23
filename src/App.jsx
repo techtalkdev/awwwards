@@ -1,10 +1,11 @@
-import React from 'react'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div className="flex items-center justify-center h-screen bg-blue-500 text-white underline">
-      <h1 className="text-4xl font-bold">Tailwind CSS v3 + Vite + React 🎉</h1>
-    </div>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+      <section className='z-0 min-h-screen bg-blue-500'/>
+    </main>
   )
 }
 
